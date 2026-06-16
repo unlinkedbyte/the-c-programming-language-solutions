@@ -115,7 +115,7 @@ int main(void) {
   printf("\t-> long: '%ld' - '%ld'\n", minimo_long, maximo_long);
 
 
-
+  
 
   
 
