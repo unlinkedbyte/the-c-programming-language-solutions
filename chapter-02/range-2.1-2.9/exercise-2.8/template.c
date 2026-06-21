@@ -1,9 +1,9 @@
 // Exercise 2.8: Write a function rightrot(x,n) that returns the value of the integer rotated to 
 // the right by n bit positions.
 
-unsigned rightrot(unsigned x, unsigned n) { // Declaramos unsigned n para que no nos puedan meter
-                                            // datos inesperados como un número negativo ya que ahora
-                                            // introducimos un bucle
+unsigned rightrot(unsigned x, unsigned n) { // Usamos unsigned n para blindar la función.
+                                            // Las operaciones de bits y desplazamientos con valores
+                                            // negativos pueden provocar comportamiento indefinido. 
   
   
   int total_bits = sizeof(x) * 8;
